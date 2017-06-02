@@ -27,5 +27,12 @@ namespace XamarinFileHandler.iOS
 
 			return base.FinishedLaunching (app, options);
 		}
-	}
+
+        public override bool OpenUrl(UIApplication application, NSUrl url, string sourceApplication, NSObject annotation)
+        {
+            Console.WriteLine("Invoked with OpenUrl: {0}", url.AbsoluteString);
+            NSNotificationCenter.DefaultCenter.PostNotificationName("OpenUrl", url);
+            return true;
+        }
+    }
 }
