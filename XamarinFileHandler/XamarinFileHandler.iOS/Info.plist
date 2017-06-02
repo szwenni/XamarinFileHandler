@@ -70,6 +70,13 @@
 			<array>
 				<string>public.data</string>
 			</array>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string></string>
+				</array>
+			</dict>
 		</dict>
 	</array>
 </dict>
