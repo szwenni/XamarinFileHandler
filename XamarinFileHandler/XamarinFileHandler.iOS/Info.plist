@@ -74,10 +74,12 @@
 			<dict>
 				<key>public.filename-extension</key>
 				<array>
-					<string></string>
+					<string>pki</string>
 				</array>
 			</dict>
 		</dict>
 	</array>
+	<key>CFBundleName</key>
+	<string>XamarinFileHandler</string>
 </dict>
 </plist>
